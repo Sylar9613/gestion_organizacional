@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Portada</title>
+    <link href="css/side%20nav.css" rel="stylesheet">
+    <link href="icon/favicon.ico" rel="icon" type="image/x-icon">
+</head>
+
+<body onload="myFunction()" style="margin:0;">
+<noscript>Su navegador no soporta Javascript o tiene esta funci&oacute;n desactivada</noscript>
+
+<div id="loader"></div>
+
+<div style="display:none;" id="myDiv" class="animate-bottom">
+
+    <!--sidenav-->
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+        <a href="content/about.html">About</a>
+        <a href="content/planificacion.html">Planificaci&oacute;n</a>
+        <a href="content/direccion.html">Direcci&oacute;n</a>
+        <a href="content/organizacion.html">Organizaci&oacute;n</a>
+        <a href="content/control.html">Control</a>
+        <a href="content/videos.html">Videos</a>
+    </div>
+
+    <div id="main">
+
+        <!--slideshow-->
+        <div class="w3-content" style="max-width:800px;position:relative;">
+            <div class="w3-container w3-orange">
+                <span style="font-size:30px;cursor:pointer" onclick="openNav()">☰ Menu</span>
+            </div>
+
+            <img class="mySlides" src="images/Picture5.jpg" style="width:100%">
+            <img class="mySlides" src="images/BSC-es.jpg" style="width:100%">
+            <img class="mySlides" src="images/Picture4.jpg" style="width:100%">
+            <img class="mySlides" src="images/Picture1.jpg" style="width:100%">
+
+            <a class="w3-btn-floating" style="position:absolute;top:45%;left:0" onclick="plusDivs(-1)">❮</a>
+            <a class="w3-btn-floating" style="position:absolute;top:45%;right:0" onclick="plusDivs(1)">❯</a>
+            <p>En esta p&aacute;gina se pueden encontrar las definiciones de Planificaci&oacute;n, Direcci&oacute;n
+                ,Organizaci&oacute;n y Control, junto con algunos ejemplos de videos relacionados a
+                estos temas.</p>
+            <footer>&copy;&nbsp;Web Designer - Ari&aacute;n Castellanos Rodr&iacute;guez - 2018</footer>
+        </div>
+
+    </div>
+</div>
+
+<script src="js/js.min.js"></script>
+</body>
+</html>
